@@ -1,0 +1,42 @@
+{
+  "name": "@http/qs",
+  "version": "0.1.0",
+  "description": "Wrapper for qs and querystring modules",
+
+  "keywords": [
+    "http",
+    "https",
+    "qs",
+    "querystring"
+  ],
+
+  "license": "MIT",
+  "homepage": "https://github.com/node-http/qs",
+
+  "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (http://simov.github.io)",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-http/qs.git"
+  },
+
+  "dependencies": {
+    "qs"              : "5.2.0"
+  },
+
+  "devDependencies": {
+    "mocha"           : "2.x.x",
+    "should"          : "7.x.x",
+    "istanbul"        : "0.x.x",
+    "coveralls"       : "2.x.x",
+    "eslint"          : "1.x.x"
+  },
+
+  "main": "index.js",
+
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
+}
