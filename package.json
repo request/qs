@@ -1,9 +1,10 @@
 {
-  "name": "@http/qs",
+  "name": "@request/qs",
   "version": "0.1.0",
   "description": "Wrapper for qs and querystring modules",
 
   "keywords": [
+    "request",
     "http",
     "https",
     "qs",
@@ -11,17 +12,17 @@
   ],
 
   "license": "MIT",
-  "homepage": "https://github.com/node-http/qs",
+  "homepage": "https://github.com/request/qs",
 
   "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (http://simov.github.io)",
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-http/qs.git"
+    "url": "https://github.com/request/qs.git"
   },
 
   "dependencies": {
-    "qs"              : "5.2.0"
+    "qs": "5.2.0"
   },
 
   "devDependencies": {},
